@@ -7,7 +7,7 @@ def oxford_comma(array)
 
     when 2
       array.join(" and ")
-    when > 2
+    when array_length > 2
       # get the last word from the array form of the phrase
       phrase_last_word = array.pop
       # return the array for of the phrase without the last word
