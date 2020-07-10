@@ -3,7 +3,7 @@ def oxford_comma(array)
   case array_length
 
     when 1
-      array.to_s
+      array.join
 
     when 2
       array.join(" and ")
