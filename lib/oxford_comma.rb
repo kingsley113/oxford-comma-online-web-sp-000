@@ -1,6 +1,6 @@
 def oxford_comma(array)
 phrase_without_last_word = array.pop
-
+puts "#{phrase_without_last_word}"
  phrase = array.join(", ")
 
  last_word = !phrase.pop
