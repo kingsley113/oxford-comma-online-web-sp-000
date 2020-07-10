@@ -10,7 +10,7 @@ def oxford_comma(array)
     phrase_last_word = array.pop
     # join the phrase without the last word
     phrase_without_last_word = array.join(", ")
-    # add back the last word and "and"
+    # add back the last word with ", and"
     phrase = "#{phrase_without_last_word}, and #{phrase_last_word}"
   end
 end
