@@ -14,7 +14,7 @@ puts "#{phrase_last_word}"
  phrase = phrase.join(", ")
 
 # add back the last word and "and"
- phrase = "#{phrase} and #{phrase_last_word}" 
+ phrase = "#{phrase} and #{phrase_last_word}"
 end
 
 test_array = ["first", "second", "third", "fourth", "fifth"]
