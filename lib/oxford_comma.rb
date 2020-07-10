@@ -10,4 +10,4 @@ end
 
 test_array = ["first", "second", "third", "fourth", "fifth"]
 
-oxford_comma[test_array]
+oxford_comma(test_array)
