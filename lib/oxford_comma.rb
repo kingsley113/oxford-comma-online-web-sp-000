@@ -17,6 +17,6 @@ puts "#{phrase_last_word}"
  phrase = "#{phrase} and #{phrase_last_word}"
 end
 
-test_array = ["first", "second", "third", "fourth", "fifth"]
+#test_array = ["first", "second", "third", "fourth", "fifth"]
 
-oxford_comma(test_array)
+#oxford_comma(test_array)
