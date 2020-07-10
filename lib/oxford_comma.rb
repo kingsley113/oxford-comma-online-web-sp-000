@@ -8,5 +8,6 @@ phrase_without_last_word = array.pop
  phrase
 end
 
+test_array = ["first", "second", "third", "fourth", "fifth"]
 
-oxford_comma["first", "second", "third", "fourth", "fifth"]
+oxford_comma[test_array]
