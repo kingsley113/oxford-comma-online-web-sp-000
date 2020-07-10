@@ -16,10 +16,9 @@ def oxford_comma(array)
     #puts "#{phrase_last_word}"
 
     # join the phrase without the last word
-    array.join(", ")
-    puts "#{array}"
+    string = array.join(", ")
     # add back the last word and "and"
-    phrase = "#{array} and #{phrase_last_word}"
+    phrase = "#{string} and #{phrase_last_word}"
   end
 end
 #test_array = ["first", "second", "third", "fourth", "fifth"]
