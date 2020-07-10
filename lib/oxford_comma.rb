@@ -5,7 +5,7 @@ phrase_without_last_word = array.pop
 
  last_word = !phrase.pop
 
- phrase 
+ phrase
 end
 
 
